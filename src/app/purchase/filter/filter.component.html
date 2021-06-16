@@ -1,11 +1,13 @@
+<!-- filtering the products displaying -->
 <div class="card">
     <div class="card-header">
         <b>Filter</b>
     </div>
     <div class="items">
-        
+
         <div class="card-body">
             <form>
+                <!-- for sorting the price range -->
                 <div class="form">
                     <label for="from">From</label>
                     <input type="number" id="from" class="form-control" min="100" max="500" />
@@ -13,12 +15,14 @@
 
                 <div class="form">
                     <label for="from">To</label>
-                    <input type="number" id="from" class="form-control" min="500" max="2000"/>
+                    <input type="number" id="from" class="form-control" min="500" max="2000" />
                 </div>
 
                 <button class="btn btn-primary btn-block btn-sm">Filter By Price</button>
 
 
+                
+                <!-- for sorting the items base on criterias -->
                 <div class="dropdown">
                     <button class="btn btn-primary btn-block " type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
