@@ -1,7 +1,11 @@
+
+/* styling the whole filter items */
 .items
 {
  padding-bottom:80px ;
 }
+
+/* styling items range */
 #from
 {
     width: 150px;
@@ -14,6 +18,9 @@ button
     padding:0%;
 }
 
+
+/* 
+styling dropdown */
 .dropdown
 {
     margin-top:10px;
