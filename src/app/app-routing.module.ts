@@ -13,19 +13,18 @@ import { PurchaseComponent } from './purchase/purchase.component';
 
 const routes: Routes = [
   {path:'', pathMatch:"full",redirectTo:"/home"},//base rooting or default rooting or route redirecting
-  { path: "home", component: HomeComponent },
 
-  {path:"profile",component:ProfileComponent,
-   children:[
+  { path: "home", component: HomeComponent },//home component
+
+  {path:"profile",component:ProfileComponent,//profile component
+   children:[                                 //child components of profile component
      {path:'',component:LoginComponent},
      {path:"login",component:LoginComponent},
      {path:"signup",component:SignupComponent}
     ]},
 
-  {path: "purchase", component: PurchaseComponent,
-    children:
-      [
-
+  {path: "purchase", component: PurchaseComponent,//purchase component
+    children:[                                    //child components for purchase component
         {path:'',component:GroceryComponent},
         { path: "grocery", component: GroceryComponent },
         { path: "meat", component: MeatComponent },
