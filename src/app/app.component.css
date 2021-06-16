@@ -1,0 +1,64 @@
+
+
+/* .mainBody
+{
+    background-color: rgb(118, 231, 118);
+    padding-top: 3%;
+} */
+
+header
+{
+/* background-color: rgba(247, 245, 243, 0.713); */
+
+background-image: linear-gradient(to right,rgb(49, 81, 170), rgb(184, 204, 230)); 
+}
+
+.owner img
+{
+width: 120px;
+height: 100px;
+position: absolute;
+top:1px;
+bottom: 120%;
+}
+
+
+
+.navbar
+{
+    padding: 3%2%1%2%;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 26px;
+   
+}
+.nav li a
+{
+    color: black;
+}
+
+.contactUs, .float-end p
+{
+   text-align: center;
+}
+.contactUs
+{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.active
+{
+    background-color: rgb(77, 162, 77);
+}
+
+.active:hover
+{
+    background-color: rgb(9, 70, 9);
+}
+
+footer .text-small
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,12 @@
+.nav a
+{
+    background-color: rgb(190, 207, 237);
+    color:black ;
+    font-size: 28px;
+    border-radius: 0px;
+
+}
+.nav a:hover
+{
+    background-color: rgb(129, 180, 209);
+}
