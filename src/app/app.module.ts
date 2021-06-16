@@ -19,6 +19,7 @@ import { SignupComponent } from './profile/signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
+    //all the custom components
     HomeComponent,
     PurchaseComponent,
     FilterComponent,
