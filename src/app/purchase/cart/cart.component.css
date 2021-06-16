@@ -1,15 +1,18 @@
 
+
+/* styling selected produsts price section */
 div li
 {
     margin: 4px;
     font-size: 13px;
 }
 
+
+/* styling buying section */
 .buynow
 {
     margin-top: 10px;
 }
-
 #buynowT
 {
     font-size: 15px;
